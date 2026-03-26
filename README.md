@@ -61,6 +61,7 @@ The Tableau dashboard provides:
 ---
 
 ## 📁 Project Structure
+```
    ecommerce_etl/
    ├── etl/
    │ ├── extract.py
@@ -73,22 +74,32 @@ The Tableau dashboard provides:
    ├── .env (excluded)
    ├── requirements.txt
    └── data.csv (excluded)
-
+```
 ---
 
 ##  How to Run
 1. Clone the repository
-- git clone https://github.com/your-username/ecommerce-etl-dashboard.git
-- cd ecommerce-etl-dashboard
-2. Create virtual environment
-- python -m venv venv
-- venv\Scripts\activate
+```
+ git clone https://github.com/your-username/ecommerce-etl-dashboard.git
+ cd ecommerce-etl-dashboard
+```
+3. Create virtual environment
+```
+ python -m venv venv
+ venv\Scripts\activate
+```
 3. Install dependencies
-- pip install -r requirements.txt
+```
+ pip install -r requirements.txt
+```
 4. Set environment variables Create `.env` file:
--  DB_PASSWORD=your_password
+```
+DB_PASSWORD=your_password
+```
 6. Run ETL pipeline
-  -  python main.py
+```
+python main.py
+```
  
 ---
 ### Dashboard Preview
