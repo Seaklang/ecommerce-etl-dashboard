@@ -26,7 +26,7 @@ The workflow includes:
 - Loaded dataset from CSV file
 - Used Pandas for data ingestion
 
-###Transform
+### Transform
 - Handled missing values
 - Removed invalid records (negative quantity, zero price)
 - Converted data types (date, numeric)
