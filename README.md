@@ -91,6 +91,11 @@ The Tableau dashboard provides:
   -  python main.py
  
 ---
+### Dashboard Preview
+This dashboard shows key insights from e-commerce sales data, including revenue trends, top products, and country performance.
+<img width="1707" height="854" alt="Screenshot 2026-03-26 221816" src="https://github.com/user-attachments/assets/a04b68ce-0f3e-4f53-a73f-852e7a49702c" />
+
+---
 
 ## Future Improvements
 
@@ -100,6 +105,7 @@ The Tableau dashboard provides:
 - Handle larger datasets (scalability)
 
 ---
+
 
 ## Author
 - Phon Seaklang
